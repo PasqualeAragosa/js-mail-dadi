@@ -23,18 +23,16 @@ img {
 
 /* #endregion Utilities */
 
-/* #region Body */
-
 /* #region Header */
 
 /* #endregion Header */
 
 /* #region Main */
-
+p {
+    font-size: 1.5rem;
+}
 /* #endregion Main */
 
 /* #region Footer */
 
 /* #endregion Footer */
-
-/* #endregion Body */
