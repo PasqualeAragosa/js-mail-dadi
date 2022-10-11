@@ -41,7 +41,14 @@ p {
 .dice {
     border: 1px solid black;
     border-radius: 1rem;
-    height: 250px;
+    height: 300px;
+}
+
+.user, 
+.pc {
+    width: 70px;
+    height: 30px;
+    border: 1px solid black;
 }
 /* #endregion Main */
 

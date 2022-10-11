@@ -24,20 +24,25 @@ buttonEl.addEventListener('click',
                 issue = `Log-in effettuato!`;
             }
         }
-        //alert(issue);
-        boxEl.insertAdjacentHTML('beforeend', issue);
+        
+        boxEl.innerHTML = issue;
         
         const userNum = Math.floor((Math.random() * 6) + 1);
         const pcNum = Math.floor((Math.random() * 6) + 1);
         const diceEl = document.querySelector('.check_dice');
         console.log(userNum, pcNum);
+        const userEl = document.querySelector('.user');
+        const pcEl = document.querySelector('.pc');
+        
+        userEl.innerHTML = userNum;
+        pcEl.innerHTML = pcNum;
         
         if (userNum > pcNum) {
-            diceEl.insertAdjacentHTML('beforeend', `Hai vinto!`);
+            diceEl.innerHTML = `Hai vinto!`;
         } else if (pcNum > userNum) {
-            diceEl.insertAdjacentHTML('beforeend', `Hai perso!`);
+            diceEl.innerHTML = `Hai perso!`;
         } else {
-            diceEl.insertAdjacentHTML('beforeend', `Pareggio!`);
+            diceEl.innerHTML = `Pareggio!`;
         }
     }
 )
