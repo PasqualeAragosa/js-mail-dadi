@@ -9,6 +9,10 @@ img {
     max-width: 100%;
 }
 
+p {
+    font-size: 2rem;
+}
+
 .wrapper {
     width: 80%;
     margin: auto;
@@ -28,8 +32,16 @@ img {
 /* #endregion Header */
 
 /* #region Main */
-p {
-    font-size: 1.5rem;
+.validator {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 250px;
+}
+
+.dice {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 250px;
 }
 /* #endregion Main */
 
